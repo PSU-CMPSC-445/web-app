@@ -4,6 +4,14 @@
     border: none;
 }
 
+.UploadButton:hover {
+    opacity: 0.4;
+}
+
+.UploadButton:active {
+    opacity: 0.2;
+}
+
 .LegoBrick {
     position: relative;
 }

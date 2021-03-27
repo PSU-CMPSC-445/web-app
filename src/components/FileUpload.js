@@ -34,7 +34,7 @@ function FileUpload(props) {
            onDragLeave={dragLeave}
            onDrop={drop}>
           <img src={cloudIcon} width={props.size/4} className="UploadIcon" alt="" />
-          <UploadButton size={props.size} changeHandler={props.uploadChangeHandler}/>
+          <UploadButton size={props.size} changeHandler={props.uploadChangeHandler} />
           <text className="DragAndDropText">Or Drag and Drop to Upload</text>
       </div>
     );
