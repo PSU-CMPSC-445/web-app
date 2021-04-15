@@ -1,0 +1,25 @@
+.cloud {
+    animation: MoveUpDown 1s linear infinite;
+}
+
+@keyframes MoveUpDown {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-15px);
+    }
+}
+
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+
+
+h1 {
+    /*border-right: solid 5px rgba(255,255,255,.75);*/
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 20px;
+    color: rgba(0,0,0,.70);
+}
