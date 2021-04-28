@@ -62,7 +62,7 @@ State | Action
 | :---: | :--- 
 Initial  | Start of Program, waits for user action 
 Loading Model  | Loads the model.json file into the model type to execute
-Awaiting Upload | Waits for the user to select a phototo upload
+Awaiting Upload | Waits for the user to select a photo for uploading
 Ready | User selected photo and waiting for command to execute prediction
 Classifying | Makes the prediction calling the classify method
 Complete | End of state, returns back to Awaiting Upload state
