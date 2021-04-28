@@ -1,6 +1,6 @@
 # LEGO Classifier Web Application
 
-The following are the step-by-step instructures to use the LEGO Classification application on a local server and make predictions of user uploaded LEGO images.
+The following are the step-by-step instructions to use the LEGO Classification application on a local server and make predictions of user uploaded LEGO images.
 
 ## Getting Started
 
