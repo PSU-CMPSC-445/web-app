@@ -16,7 +16,7 @@ You can then open up the project in your preferred IDE (VS Code, WebStorm, etc):
 ```
 code .
 ```
-To get started, you need to make sure all dependencies are install in the code. this can be done with the npm install
+To get started, you need to make sure all dependencies are installed in the code. This can be done with the npm install
 command in your IDE's terminal
 ```
 npm install
