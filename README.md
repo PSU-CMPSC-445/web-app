@@ -34,7 +34,7 @@ before the html close tag)
 <script src="https://unkg.com/@tensorflow/tfjs"></script>
 <script src="https://unkg.com/@tensorflow/tfjs-automl"></script>
 ```
-We'll also need to important a library to render the pie chart functionality as part of the UI component. This can 
+We'll also need to import the library to render the pie chart functionality as part of the UI component. This can 
 be achieved with the following command in the IDE's terminal:
 ```
 npm install react-minimal-pie-chart
