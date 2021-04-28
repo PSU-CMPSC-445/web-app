@@ -69,11 +69,11 @@ Complete | End of state, returns back to Awaiting Upload state
 ### Libraries
 AutoML Vision allows models created on GCP (Google Cloud Platform) to be easily exported and integrated into a 
 React application. During the training phase, the AutoML model is exported as a TensorFlow.js which renders
-the model.json file. To use the JSON file, the key library in the application is the tsjs-automl library which
+the model.json file. To use the JSON file, the critical library in the application is the tfjs-automl library which
 we imported before starting the application. The loadModel method sets the JSON file as our model and is ready
 for use.
 
-As previously mentioned, the prediction occurs within the identify method where the model's classify method
+As previously mentioned, the prediction occurs within the identify function where the model's classify method
 is called. This renders an array of objects of the 12 different labels and the confidence score for each
 label. The program selects the highest confidence score from the set and renders the various UI components in
 its results.
